@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(207, 104, 104);
+}
+div {
+    
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+    flex-grow: 1;
+    
+    
+}
+#line {
+    border: solid rgb(255, 175, 161) 5px;
+    border-radius: 15px;
+    padding: 0px;
+    margin: auto;
+    width: min-content;
+}
+button {
+    flex-grow: 1;
+    width: 1px;
+    margin: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid rgb(117, 117, 79) 8px;   
+    border-radius: 10px;
+    background-color:   rgb(255, 175, 161)
+}
+#calc {
+    border: solid rgb(70, 15, 15) 15px;
+    background-color: rgb(70, 15, 15) ;
+    border-radius: 15px;
+    margin: 0px;
+    width: 500px;
+    height: 550px;
+    
+}
+#display {
+   flex-grow: 1;
+   border: solid rgb(255, 175, 161) 5px;   
+   border-radius: 10px;
+    background-color:  rgb(44, 8, 8) ;
+    height: 20px;
+    font-size: 50px;
+    justify-content: end;
+    text-align: end;
+    color:  rgb(255, 175, 161) ;
+    padding: 10px;
+}
+#container {
+    flex-grow: 1;
+    margin-top: 10px;
+    background-color:  rgb(70, 15, 15) ;
+    
+}
+button {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+#zero {
+    flex-grow: 2.35;
+}
+.num {
+    border: solid rgb(134, 134, 109) 8px;
+}
+#equals {
+    border: solid  rgb(207, 104, 104) 8px;
+}
